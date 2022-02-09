@@ -1,0 +1,32 @@
+.cardContainer {
+  margin-top: 25px;
+  padding: 10px;
+  background-color: white;
+  width: 300px;
+  overflow: hidden;
+  box-shadow: 0px 0px 15px -5px;
+  transition: 0.5s;
+  animation: ease-in-out;
+  border-radius: 4px;
+}
+
+.cardContainer:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 0px 15px 0px;
+}
+
+.cardTitle {
+  font-weight: bold;
+}
+
+.cardBody {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cardButton {
+  background-image: linear-gradient(90deg, #410076, #8820dd);
+  color: white;
+  border-radius: 4px;
+  font-size: 15px;
+}

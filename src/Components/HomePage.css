@@ -1,0 +1,29 @@
+@font-face {
+  font-family: Oxygen;
+  src: url('../Fonts/oxygen-v14-latin-regular.woff') format("woff"), url('../Fonts/oxygen-v14-latin-regular.ttf')  format("truetype");
+}
+
+.HomePage {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-family: Oxygen, Helvetica, sans-serif;
+}
+
+body {
+  background-image: url('../Media/13077.jpg');
+  background-size: cover;
+  padding: 0;
+  margin: 0;
+}
+
+.Title {
+  color: white;
+  font-size: 400%;
+}
+
+.News p {
+  color: white;
+}
